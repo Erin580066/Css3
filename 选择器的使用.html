@@ -11,6 +11,17 @@
 	a[href$="doc"]::before{content: url(img/word.jpg);}
 	a[href$="xls"]::before{content: url(img/excel.jpg);}
 	a[href$="ppt"]::before{content: url(img/ppt.jpg);}
+	#text{
+		width:500px;
+		overflow: hidden;
+		-webkit-text-fill-color:red;
+		-webkit-text-stroke:1px blue;
+		text-fill-color:red;
+		text-stroke:1px blue;
+		font-size:50px;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+	}
 </style>
 </head>
 <body>
@@ -21,5 +32,6 @@
 	<p><a href="html5.doc">HTML5word文档</a></p>
 	<p><a href="html5.xls">HTML5excel文档</a></p>
 	<p><a href="html5.ppt">HTML5幻灯片</a></p>
+	<div id="text">地方撒旦法师的法师打发的手法第三方第三方第三方阿斯顿发顺丰</div>
 </body>
 </html>
