@@ -60,6 +60,22 @@
 	tr:nth-child(11) td:nth-of-type(3){background:hsl(120,50%,0%);}
 	tr:nth-child(11) td:nth-of-type(4){background:hsl(120,25%,0%);}
 	tr:nth-child(11) td:nth-of-type(5){background:hsl(120,0%,0%);}
+	/*盒子阴影*/
+	.color_border{
+		width:200px;
+		height:100px;
+		background:gray;
+		float:left;
+		margin:100px;
+		box-shadow:
+			0 0 10px 10px red,
+			0 0 10px 20px orange,
+			0 0 10px 30px yellow,
+			0 0 10px 40px cyan,
+			0 0 10px 50px blue,
+			0 0 10px 60px purple;
+		
+	}
 	.box1{
 		width:100px;
 		height:100px;
@@ -211,8 +227,11 @@
 		</tbody>
 	</table>
 	<hr />
+	<div class="color_border"></div>
 	<div class="box1">圆</div>
 	<div class="box2">两个半圆</div>
 	<div class="box3">太极</div>
+	
+	
 </body>
 </html>
